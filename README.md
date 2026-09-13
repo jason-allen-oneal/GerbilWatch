@@ -1,6 +1,6 @@
 # Gerbil Threat Index
 
-A satirical ranking of real gerbil types, not individually named pets.
+A satirical ranking of real gerbil types.
 Ten entries: three species and seven Mongolian gerbil coat varieties, labeled
 separately. Real identity sources are linked inside every dossier and recorded
 in SOURCES.md. Threat scores and allegations are wholly invented.
