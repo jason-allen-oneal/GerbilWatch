@@ -1,0 +1,16 @@
+{
+  "name": "gerbil-threat-index",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small mammals. Disproportionate concern.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/build.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "devDependencies": { "typescript": "5.8.3" }
+}
